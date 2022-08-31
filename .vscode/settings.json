@@ -1,0 +1,14 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\JavaFX\\lib\\javafx.fxml.jar",
+        "c:\\JavaFX\\lib\\javafx.base.jar",
+        "c:\\JavaFX\\lib\\javafx.controls.jar",
+        "c:\\JavaFX\\lib\\javafx.graphics.jar",
+        "c:\\JavaFX\\lib\\javafx.media.jar",
+        "c:\\JavaFX\\lib\\javafx.swing.jar",
+        "c:\\JavaFX\\lib\\javafx.web.jar",
+        "c:\\JavaFX\\lib\\javafx-swt.jar"
+    ],
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m"
+}

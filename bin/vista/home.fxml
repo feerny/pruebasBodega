@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="595.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeController">
+   <children>
+      <Text layoutX="266.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenidos" />
+      <ImageView fitHeight="335.0" fitWidth="568.0" layoutX="14.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@tienda.jpg" />
+         </image>
+      </ImageView>
+      <MenuBar layoutY="2.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="acciones">
+            <items>
+              <MenuItem fx:id="idClientes" mnemonicParsing="false" onAction="#clickClientes" text="clientes" />
+                  <MenuItem fx:id="idPrductos" mnemonicParsing="false" onAction="#clickProductos" text="Productos" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="vender">
+            <items>
+              <MenuItem fx:id="IdVentas" mnemonicParsing="false" onAction="#VentasMenuClick" text="Ventas" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="salir">
+            <items>
+              <MenuItem fx:id="idSalir" mnemonicParsing="false" onAction="#clickSalir" text="cerrar sesion" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>

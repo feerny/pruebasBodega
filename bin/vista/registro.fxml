@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0" prefWidth="540.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.VentasController">
+   <children>
+      <TextField fx:id="txtCant" layoutX="196.0" layoutY="306.0" />
+      <Label layoutX="172.0" layoutY="131.0" text="Cliente" />
+      <Label layoutX="166.0" layoutY="204.0" text="Producto" />
+      <Label layoutX="241.0" layoutY="275.0" text="CANTIDAD" />
+      <Button fx:id="btnGuardar" layoutX="216.0" layoutY="395.0" mnemonicParsing="false" onAction="#clickGuardar" prefHeight="37.0" prefWidth="109.0" text="Guardar" />
+      <Text layoutX="246.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registrar" />
+      <ComboBox fx:id="cmbClient" layoutX="225.0" layoutY="127.0" prefWidth="150.0" />
+      <ComboBox fx:id="cmbProduct" layoutX="225.0" layoutY="200.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>
